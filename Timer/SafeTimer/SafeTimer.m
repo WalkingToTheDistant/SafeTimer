@@ -53,7 +53,7 @@
     _target = aTarget;
     _selector = aSelector;
     if(_target != nil
-       && _selector != nil){
+       && _selector != nil){ // 加快调用函数的速度
         _impOfSelector = [_target methodForSelector:_selector];
     } else {
         _impOfSelector = nil;
@@ -185,7 +185,7 @@
     
     return timer;
 }
-+ (BOOL) isUseBlock{
++ (BOOL) isUseBlock{ // 在iOS10之后，NSTimer增加了block方法，就是为了避免循环引用而造成的内存泄露问题
     
     return [[UIDevice currentDevice].systemVersion floatValue] >= 10.0;
 }
