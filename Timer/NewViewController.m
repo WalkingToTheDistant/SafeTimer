@@ -9,8 +9,6 @@
 
 @interface NewViewController ()
 
-@property(nonatomic, retain) SafeTimer *safeTimer;
-
 @end
 
 @implementation NewViewController
@@ -23,8 +21,8 @@
     NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:method];
     invocation.target = self;
     invocation.selector = sel;
-//    _safeTimer = [SafeTimer scheduledTimerWithTimeInterval:5 invocation:invocation repeats:YES];
-    [SafeTimer scheduledTimerWithTimeInterval:10 target:self selector:@selector(handleTimer:) userInfo:[NSObject new] repeats:YES];
+    NSTimer *timer1 = [SafeTimer scheduledTimerWithTimeInterval:5 invocation:invocation repeats:YES];
+    NSTimer *timer2 = [SafeTimer scheduledTimerWithTimeInterval:10 target:self selector:@selector(handleTimer:) userInfo:[NSObject new] repeats:YES];
 }
 
 - (void) viewDidAppear:(BOOL)animated{

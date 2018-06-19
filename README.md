@@ -6,9 +6,9 @@
 
 #import "SafeTimer.h"
 
-[SafeTimer scheduledTimerWithTimeInterval:5 invocation:invocation repeats:YES];
+NSTimer *timer1 = [SafeTimer scheduledTimerWithTimeInterval:5 invocation:invocation repeats:YES];
 
-[SafeTimer scheduledTimerWithTimeInterval:10 target:self selector:@selector(handleTimer:) userInfo:[NSObject new] repeats:YES];
+NSTimer *timer2 = [SafeTimer scheduledTimerWithTimeInterval:10 target:self selector:@selector(handleTimer:) userInfo:[NSObject new] repeats:YES];
 
 
 -(void) handleInvocation:(id)obj withObj2:(id)obj2

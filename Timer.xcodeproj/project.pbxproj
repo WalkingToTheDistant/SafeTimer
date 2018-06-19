@@ -14,6 +14,7 @@
 		9F89374F20D35535009A264D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F89374D20D35535009A264D /* LaunchScreen.storyboard */; };
 		9F89375220D35535009A264D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F89375120D35535009A264D /* main.m */; };
 		9F990D9920D3A1C400120814 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F990D9820D3A1C400120814 /* NewViewController.m */; };
+		9F990DA120D8EA0E00120814 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9F990DA020D8EA0E00120814 /* README.md */; };
 		9FEBD64A20D355EA00D469EB /* SafeTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEBD64920D355EA00D469EB /* SafeTimer.m */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		9F89375120D35535009A264D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9F990D9720D3A1C400120814 /* NewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
 		9F990D9820D3A1C400120814 /* NewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
+		9F990DA020D8EA0E00120814 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		9FEBD64820D355EA00D469EB /* SafeTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafeTimer.h; sourceTree = "<group>"; };
 		9FEBD64920D355EA00D469EB /* SafeTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeTimer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +78,7 @@
 				9F89374D20D35535009A264D /* LaunchScreen.storyboard */,
 				9F89375020D35535009A264D /* Info.plist */,
 				9F89375120D35535009A264D /* main.m */,
+				9F990DA020D8EA0E00120814 /* README.md */,
 			);
 			path = Timer;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			files = (
 				9F89374F20D35535009A264D /* LaunchScreen.storyboard in Resources */,
 				9F89374C20D35535009A264D /* Assets.xcassets in Resources */,
+				9F990DA120D8EA0E00120814 /* README.md in Resources */,
 				9F89374A20D35534009A264D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
